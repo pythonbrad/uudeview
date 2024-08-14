@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3.1.0
       - name: Install dependencies
-        run: |
+        run: | 
           sudo apt-get update
           sudo apt-get install -y build-essential autoconf tcl-dev tk-dev
       - name: Run CI
